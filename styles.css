@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: none;
+}
+
+/* medquer */
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-family: "Poppins";
+  }
+
+  .name {
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+  }
+
+  .name h1 {
+    font-size: 17px;
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+  }
+
+  .name p {
+    color: white;
+    font-size: 10px;
+  }
+
+  .name h1 span {
+    color: rgb(35, 32, 219);
+  }
+
+  .name img {
+    width: 30px;
+    padding: 5px;
+    color: #42baff;
+  }
+
+  /* navbar */
+  .nvbritem a {
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+    align-items: center;
+  }
+
+  .nvbritem a img {
+    width: 18px;
+  }
+
+  .nvbritem a h5 {
+    padding: 0 5px;
+    color: #003655;
+  }
+
+  .nvbritem a p {
+    font-weight: 100;
+    font-size: 11px;
+  }
+
+  .nvbritem {
+    padding: 10px;
+  }
+
+  .nvbr {
+    height: 100vh;
+    background-color: #161616;
+    width: 30%;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  .layar {
+    background-color: rgb(29, 29, 29);
+    width: 70%;
+    height: 100vh;
+  }
+
+  .layar1 {
+    display: flex;
+  }
+
+  .layar h3 {
+    color: white;
+    text-align: center;
+    font-weight: 200;
+  }
+
+  .layar p {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .teks {
+    margin-top: 250px;
+  }
+  /* didaam layar */
+
+  .pp img {
+    width: 70px;
+    border-radius: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 50px;
+  }
+
+  .nm h2 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+  }
+
+  .tag h2 {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+}
+
+  .tag h2 span {
+    font-size: 10px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .data h1 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .data h2 {
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+  }
+
+  .data h2 span {
+    color: rgb(255, 255, 255);
+  }
+
+  .data {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  .skill {
+    margin-top: 20px;
+    background-color: #003e9b;
+    padding: 10px;
+    border-radius: 15px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+  .skill h2 {
+      color: white;
+      font-weight: 300;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .blog h1 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    margin-top: 20px;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 15px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .blog h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 200;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+
+}
